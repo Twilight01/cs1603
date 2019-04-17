@@ -1,0 +1,5 @@
+数据库 db
+一、账号表account
+学号，教工号，管理员号：id        string
+密码：psd   string
+账号类型：type    string      学生student，教工staff，管理员administrator
