@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>用户密码修改</title>
+	<style type="text/css">
+		body {
+			
+			background-size: 100%;
+			background-color: #B0E0E6;
+		}
+		.id{ 
+			margin-top: 80px; 
+			margin-left: 350px; 
+			border:4px solid black;
+			width: 800px; 
+			height: 600px; 
+			background-color: white;
+			position: relative;
+
+			  }
+		#ast{
+			text-align: center;
+			font-size: 50px;
+			font-weight: normal;
+			color: black;
+			font-family: "Microsoft Yahei";
+		}
+		#tex1{
+			margin-left: 100px;
+			margin-top: 100px;
+			position: absolute;
+		}
+		#tex2{
+			margin-left: 100px;
+			margin-top: 130px;
+			position: absolute;
+		}
+		.dl{
+			margin-left: 100px;
+			font-weight: normal;
+			font-size: 30px;
+			colr:black;
+			position: relative;
+		}
+		#t1{
+			width: 200px;
+			height: 30px;
+		}
+	</style>
+</head>
+<body >
+<div class="id">
+	<!--&nbsp是空格-->
+	<h1 id="ast">修改密码</h1>
+	<form method = "post" action="register.php">
+		<center><tr id="tex1">
+			<td class="d1">&nbsp&nbsp&nbsp&nbsp&nbsp用户账号:</td>
+			<td><input type="text" id="a1" name="user"></td>
+			
+		</tr>
+		<br/><br/>
+		<tr id="tex1">
+			<td class="d1">旧密码:</td>
+			<td><input type="password" id="a2" name="password"></td>
+		</tr>
+
+		
+		<br><br>
+
+		<tr id="tex1">
+			<td class="d1">新密码:</td>
+			<td><input type="password" id="a2" name="password"></td>
+		</tr>
+
+		
+		<br><br>
+
+		<tr id="tex1">
+			<td class="d1">确认密码:</td>
+			<td><input type="password" id="a2" name="password"></td>
+		</tr>
+
+		
+		<br><br>
+		
+		<input   type="submit"   value="提交">
+		</center>
+	</form>
+</div>
+
+
+
+
+</body>
+</html>
